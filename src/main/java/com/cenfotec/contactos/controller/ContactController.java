@@ -67,7 +67,7 @@ public class ContactController {
 //    c. Por qué en el findAll no se especifica el URI para la operación?
 //        En findAll no se especifica el URI porque esa es la manera default, no se utilizan recursos.
 //    d. Qué obtiene si trata de borrar 2 veces un recurso?
-//        Nada, la pantalla sale en negro.
+//        Error 404
 //    e. Comente la anotación de PutMapping del método que hace el update. Reinicie la aplicación. Observe que pasa si lo trata de hacer.
 //        El método no sirve ya que el request no existe dentro del Controller.
 //    f. Rehabilite la anotación en PutMapping. Pero ahora cambie el URL de POSTMAN para que apunte directamente a la colección /contacts. ¿Qué error recibe?
